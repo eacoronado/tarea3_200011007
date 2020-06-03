@@ -1,0 +1,44 @@
+Asignación curso ipc1
+
+-Definir usuario,pass,curso,secA,secB,opcion,opcion2,opcion3,estudiantes
+
+1.Inicio 
+2.Escribir "Usuario";
+3.Leer usuario
+4.Escribir "Contraseña";
+5.Leer pass
+6.Si usuario and pass correcto Entonces paso 7, 
+	SiNO regresar paso 2
+   FinSi
+7.Escribir "Seleccione curso";
+8.Leer curso
+9.Escribir "Seleccione sección: 1) secA , 2)secB ";
+10.Leer opcion
+11.Segun opcion Hacer
+	1: Si estudiantes > 15 Entonces
+	Escribir "Sección no disponible, escoga otra opcion";
+	       SiNO estudiantes + 1;
+	   Entonces paso 12;
+	   FinSi
+	2: Si estudiantes > 15 Entonces	
+	Escribir "Seccion no disponible, escoga otra opcion";
+	       SiNO estudiantes + 1;
+	   Entonces paso 12;
+	   FinSi
+	Si opcion 1 && opcion 2 no disponible Entonces
+	Escribir "Desea abrir nueva seccion, 1) si , 2) no";
+	Leer opcion2
+	   Segun opcion Hacer
+		1: Definir SecC
+	 	estudiantes + 1;
+	   	Entonces paso 12;
+		2: Entonces paso 2;
+	   FinSegun
+   FinSegun
+12.Escribir "Asignar Curso, 1) si , 2) no";
+13.Leer opcion3
+14.Segun opcion3 Hacer
+	1: Escribir "Curso Asignado" 
+	2: Entones paso 9;
+   FinSegun
+15.Fin
