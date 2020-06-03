@@ -1,0 +1,92 @@
+Crear algoritmo
+
+	pseudocodigo
+	diagrama
+	custom ( hacer mi propia versión de algoritmo).
+
+--> identificar la tabla de multiplicar que se va a mostrar
+    2 * 1 = 2
+    2 * 2 = 4
+    2 * 3 = 6
+    .
+    .
+    .
+    2 * 10 = 20
+    .
+    .
+--> para formar mi tabla de multiplicar
+	colocaar el numero de mi tabla (n = 2)
+		---> perdirle al usuario ese número
+
+---> Sintaxis de formar
+--> for ( int variable = 0; varialbe < valor; variable ++)
+                                              variable --
+					
+					        
+
+
+ --> colocar el simbolo de multiplicación.
+---> colocar el número (m --> donde m inicia en 1 y termina en infinito).
+---> coloca el simbolo de igual.
+---> coloca el resultado de la multiplicación.
+
+la instancia de un objeta como tal;
+un objeto
+
+escanner libreria importada, dentro de las clases funciones implementadas
+
+instalar jdk y netbean
+modificación en el código.
+solicitar el numero limite de iteraciones para la tabla de multiplicar.
+
+
+
+
+
+Practica
+10 * 10 = 100 --> arrgleo [10][10]
+posicion de los barcos [x][y]
+posicion del disparo  [m][n]   ----> donde x = m & y = n  atinarle
+			       ----> x!= m & y = n no le atinarle
+				     x = m & y != n no le atinarle
+				     x != m & y != no le atina
+				     pero le puede atinar a otra posición
+
+bitacora de intentos realizados
+bitacora de barcos hundidos
+
+menu pricipoal do while
+iniciar juego  colocar las posiciones de los barcos y pintar el tablero
+sub menu
+
+repurtes   completo
+		listado de usuarios
+		estado de la partida
+			si gano abandono o perdio
+	victoria
+		ordeanamiento en burbuja o quicksort(ascendente)
+			en base al numero de disparos que se realizan
+
+salir
+	System.out(0)
+
+
+sub menu
+	ingresar barcos
+	cambiar intentos 10 turnos y luego pedir mas
+	iniciar el juego -->System.out.println("dame tu nickname"); lector.next();
+	visualizar el tablero
+		for(filas){
+			for(columnas){}	
+		}
+
+	(5,2)-(8,2)
+
+
+clase, relaciones, atributos, metodos.
+rectangulo, flecha <> <e> >
+variables
+funciones
+
+
+
